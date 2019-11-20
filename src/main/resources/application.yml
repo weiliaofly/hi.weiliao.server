@@ -6,7 +6,7 @@ server:
 
 spring:
   thymeleaf:
-    prefix: classpath:/template/
+    prefix: classpath:/templates/
     cache: false
     suffix: .html
     mode: HTML5
