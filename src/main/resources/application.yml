@@ -1,0 +1,13 @@
+server:
+  port: 9000
+  servlet:
+    session:
+      timeout: 600000
+
+spring:
+  thymeleaf:
+    prefix: classpath:/template/
+    cache: false
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
